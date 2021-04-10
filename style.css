@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 800px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  background-image: url(fleurs.jpeg);
+}
+.container {
+  display: grid;
+  margin: 15px;
+  border: 4px solid black;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 5px;
+  grid-template-rows: 0.1fr 1fr 3fr 0.1fr;
+  background-color: white;
+}
+ul {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  padding: 0;
+}
+h1 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+h2 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  font-weight: 300;
+  font-size: 13px;
+}
+h4 {
+  text-transform: uppercase;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+a {
+  text-decoration: inherit;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  color: #ff6d6d;
+}
+.subtitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", times, serif;
+}
+
+dt {
+  position: relative;
+  left: 0;
+  top: 1.1em;
+  font-weight: bold;
+}
+dd {
+  margin: 0 0 0 6em;
+  line-height: 1.4em;
+  padding: 0;
+  vertical-align: top;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+h3 {
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+header {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+.photo {
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  justify-items: center;
+  align-items: center;
+}
+.myimg {
+  display: grid;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-image: url(fleurs.jpeg);
+  border: 4px solid #ff6d6d;
+}
+.atouts {
+  display: grid;
+}
+sidebar {
+  padding-left: 30px;
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+main {
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-right: 30px;
+  grid-column: 2/4;
+  grid-row: 2/4;
+  border-left: 1px solid black;
+}
+.title:before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ff6d6d;
+  position: absolute;
+  margin-left: -26px;
+  margin-top: 10px;
+}
+.education {
+  padding-right: 20px;
+  grid-area: education;
+  display: grid;
+}
+*/ .edu-list {
+  column-count: 2;
+}
+.exp-field {
+  line-height: 1;
+}
+.experience {
+  display: block;
+  grid-template-columns: 0.2fr 1fr 1fr;
+}
+.subtitle {
+  grid-column-start: 1;
+  align-self: star;
+}
+.skills {
+  display: block;
+}
+.skill-list {
+  column-count: 2;
+}
+.search {
+  display: grid;
+}
+.ach-list {
+  column-count: 2;
+}
+.containers {
+  width: 100%; 
+  background-color: grey; 
+}
+
+.skill {
+  text-align: right; 
+  padding-top: 1px; 
+  padding-bottom: 2px; 
+  color: transparent; 
+  font-size: 0.7rem;
+  line-height: 0.5em;
+}
+
+.lang{
+  width: 90%;
+  background-color: red;
+} 
+.html {
+  width: 10%;
+  background-color: pink;
+} 
+.css {
+  width: 10%;
+  background-color: yellow;
+} 
+.pack {
+  width: 50%;
+  background-color: green;
+}
+footer {
+  text-indent: 30px
+  grid-column: 1/4;
+  grid-row: 4/5;
+  background-color: white;
+}
+
