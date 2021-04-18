@@ -22,7 +22,7 @@ ul {
   list-style: none;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 13px;
+  font-size: 15px;
   padding: 0;
 }
 h1 {
@@ -34,7 +34,7 @@ h1 {
 h2 {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 100;
 }
 p {
@@ -59,7 +59,9 @@ a {
 }
 .subtitle {
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-weight: 800;
+  font-size: 14px;
+  color: #ff6d6d;
 }
 
 dl {
@@ -73,6 +75,7 @@ dt {
   left: 0;
   top: 1.1em;
   font-weight: bold;
+  font-size: 13px;
 }
 dd {
   margin: 0 0 0 6em;
@@ -80,14 +83,15 @@ dd {
   padding: 0;
   vertical-align: top;
   font-weight: 100;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 h3 {
-  margin-top: 0;
+  margin-top: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 25px;
+  color: #ff6d6d;
 }
 header {
   grid-column: 1/4;
@@ -161,9 +165,6 @@ main {
 .skills {
   display: block;
 }
-.skill-list {
-  column-count: 2;
-}
 .search {
   display: grid;
 }
@@ -174,36 +175,9 @@ main {
   width: 100%; 
   background-color: grey; 
 }
-
-.skill {
-  text-align: right; 
-  padding-top: 1px; 
-  padding-bottom: 2px; 
-  color: transparent; 
-  font-size: 0.7rem;
-  line-height: 0.5em;
-}
-
-.lang{
-  width: 90%;
-  background-color: red;
-} 
-.html {
-  width: 10%;
-  background-color: pink;
-} 
-.css {
-  width: 10%;
-  background-color: yellow;
-} 
-.pack {
-  width: 50%;
-  background-color: green;
-}
 footer {
   text-indent: 30px
   grid-column: 1/4;
   grid-row: 4/5;
   background-color: white;
 }
-
